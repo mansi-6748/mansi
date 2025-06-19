@@ -16,6 +16,7 @@ area = st.number_input("Enter the area in square feet", min_value=100)
 if st.button("Predict Price"):
     # Make prediction
     input_data = np.array([[area, bedrooms, bathrooms]])  # Update with your model’s input format
-    prediction = reg.predict(input_data)[0]()_
+    prediction = reg.predict(input_data)[0]
+
 
 
